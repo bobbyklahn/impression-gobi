@@ -737,3 +737,7 @@ body.modal-lock{overflow:hidden}
   content:"";position:absolute;inset:0;
   background:radial-gradient(closest-side,transparent 50%,rgba(20,23,31,.6) 100%);
 }
+
+/* AU brand mark in nav */
+.nav .brand img{flex-shrink:0}
+.nav .brand span{letter-spacing:.18em}

@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Impression Gobi — Australia Brand Kit</title>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap");
+  :root{
+    --ink:#14171f; --ink2:#1c2029; --bone:#efe6cf; --bone2:#cabfa2;
+    --gold:#c9a35a; --line:rgba(232,222,196,.18);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--ink);color:var(--bone);font-family:Inter,system-ui,sans-serif;line-height:1.6}
+  a{color:var(--gold);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 28px}
+  header{
+    padding:48px 0 32px;border-bottom:1px solid var(--line);
+    display:flex;flex-wrap:wrap;gap:28px;align-items:center;justify-content:space-between;
+  }
+  header img.logo{height:72px;width:auto}
+  header .meta{text-align:right}
+  header .meta .k{font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+  header h1{font-family:"Cormorant Garamond",serif;font-weight:400;font-size:clamp(28px,4vw,40px)}
+  section{padding:56px 0;border-bottom:1px solid var(--line)}
+  h2{font-family:"Cormorant Garamond",serif;font-weight:400;font-size:32px;margin-bottom:12px}
+  h3{font-family:"Cormorant Garamond",serif;font-weight:400;font-size:22px;margin:24px 0 10px;color:var(--gold)}
+  p,li{color:var(--bone2);font-size:15px}
+  .lead{font-family:"Cormorant Garamond",serif;font-size:22px;color:var(--bone);line-height:1.45;max-width:50ch;margin:16px 0 28px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  @media(max-width:800px){.grid2,.grid3{grid-template-columns:1fr}}
+  .card{
+    background:var(--ink2);border:1px solid var(--line);padding:22px;border-radius:2px;
+  }
+  .card img{width:100%;height:auto;display:block;border:1px solid var(--line);margin-bottom:12px;background:#0a0c10}
+  .card .cap{font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--gold)}
+  .card p{font-size:13px;margin-top:8px}
+  .pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:24px}
+  @media(max-width:800px){.pillars{grid-template-columns:1fr 1fr}}
+  .pillar{border:1px solid var(--line);padding:18px;background:rgba(255,255,255,.02)}
+  .pillar strong{display:block;color:var(--gold);font-size:11px;letter-spacing:.2em;text-transform:uppercase;margin-bottom:8px}
+  .talk{
+    background:var(--ink2);border-left:3px solid var(--gold);padding:18px 22px;margin:14px 0;
+    font-family:"Cormorant Garamond",serif;font-size:20px;font-style:italic;color:var(--bone);
+  }
+  .btn{
+    display:inline-block;margin-top:18px;padding:12px 22px;border:1px solid var(--gold);
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--bone);
+  }
+  .btn:hover{background:var(--gold);color:var(--ink);text-decoration:none}
+  ul{padding-left:18px;margin:10px 0}
+  li{margin:6px 0}
+  footer{padding:40px 0;font-size:12px;color:#6a6050;letter-spacing:.08em}
+  table{width:100%;border-collapse:collapse;margin-top:16px;font-size:14px}
+  th,td{text-align:left;padding:12px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--gold);font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:500}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img class="logo" src="logo-au-horizontal.jpg" alt="Impression Gobi Australia logo" />
+      <div class="meta">
+        <div class="k">Australia market kit · 2026</div>
+        <h1>Brand · Logos · Talkers</h1>
+      </div>
+    </header>
+
+    <section>
+      <h2>Positioning</h2>
+      <p class="lead">Estate reds from the Gobi edge of the Tian Shan — organic blocks, real structure, a story Australians have never tasted.</p>
+      <div class="pillars">
+        <div class="pillar"><strong>Place</strong><p>Changji · Tian Shan Beilu · Xinjiang desert light</p></div>
+        <div class="pillar"><strong>Structure</strong><p>Herb, pepper, tannin that holds — Barossa-friendly</p></div>
+        <div class="pillar"><strong>Organic</strong><p>Dry climate, clean farming, not a sticker stunt</p></div>
+        <div class="pillar"><strong>Mark</strong><p>Gecko — survives the desert, remembers the ground</p></div>
+      </div>
+      <div class="talk">“If you like Barossa heat and firm tannin, start here.”</div>
+      <p><a class="btn" href="../../docs/au-brand-positioning.md">Full positioning doc →</a>
+         <a class="btn" href="talkers.html">Print shelf talkers →</a>
+         <a class="btn" href="../../index.html">Main website →</a></p>
+    </section>
+
+    <section>
+      <h2>Logo system</h2>
+      <p>China keeps the official gecko + 印象戈壁 lockup. Australia uses English primary with the same gecko.</p>
+      <div class="grid3" style="margin-top:28px">
+        <div class="card">
+          <img src="logo-cn-official.png" alt="Chinese official logo" style="background:#fff;padding:16px" />
+          <div class="cap">China · official</div>
+          <p>印象戈壁 · YINXIANGGEBI · 葡萄酒庄</p>
+        </div>
+        <div class="card">
+          <img src="logo-au-square.jpg" alt="AU square logo" style="background:#fff;padding:16px" />
+          <div class="cap">Australia · square</div>
+          <p>Avatars, stickers, coasters, IG profile</p>
+        </div>
+        <div class="card">
+          <img src="logo-au-horizontal.jpg" alt="AU horizontal logo" style="background:#fff;padding:16px" />
+          <div class="cap">Australia · horizontal</div>
+          <p>Sell sheets, email, web header, talkers</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Product &amp; campaign visuals</h2>
+      <div class="grid2" style="margin-top:24px">
+        <div class="card">
+          <img src="bottle-gecko-label.jpg" alt="Bottle with gecko mark" />
+          <div class="cap">Gecko label bottle</div>
+          <p>Studio product · gecko mark from official logo · AU retail</p>
+        </div>
+        <div class="card">
+          <img src="bottle-product.jpg" alt="Bottle product shot" />
+          <div class="cap">Hero bottle</div>
+          <p>Studio product · gold capsule · minimal label field</p>
+        </div>
+        <div class="card">
+          <img src="bottles-lineup.jpg" alt="Three bottles lineup" />
+          <div class="cap">Range lineup</div>
+          <p>Trade fair / website wines section header</p>
+        </div>
+        <div class="card">
+          <img src="ig-square-desert-glass.jpg" alt="Desert glass Instagram" />
+          <div class="cap">Instagram 1:1</div>
+          <p>Hook image for “What if the next red wasn’t Barossa?”</p>
+        </div>
+        <div class="card">
+          <img src="banner-vineyard.jpg" alt="Vineyard banner" />
+          <div class="cap">Web / ads banner</div>
+          <p>16:9 landscape for site hero or Meta ads</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Market wine talkers · staff script</h2>
+      <h3>20-second opener</h3>
+      <div class="talk">“Impression Gobi — estate wine from Changji, north of the Tian Shan. Desert light, cold nights, organic blocks. If you like structure, start here.”</div>
+
+      <table>
+        <thead>
+          <tr><th>SKU</th><th>One line</th><th>Pair</th><th>Who for</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>01 CMS</strong><br/>Cab · Merlot · Syrah</td>
+            <td>Herb. Pepper. Real tannin.</td>
+            <td>Rib-eye, lamb, aged cheddar</td>
+            <td>First pour · Barossa drinkers</td>
+          </tr>
+          <tr>
+            <td><strong>02 Marselan</strong></td>
+            <td>Blackberry · plum · plush middle. Ask for the Marselan.</td>
+            <td>Char siu, five-spice duck</td>
+            <td>By-the-glass · curiosity</td>
+          </tr>
+          <tr>
+            <td><strong>03 Organic</strong></td>
+            <td>Smoke · black cherry · clean finish. Farming first.</td>
+            <td>Chicken, mushroom pie, goat cheese</td>
+            <td>Organic shoppers</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Objection handlers</h3>
+      <ul>
+        <li><strong>“Chinese wine?”</strong> — Same latitude band as Mediterranean wine country. Different desert. Taste first.</li>
+        <li><strong>“Too tannic.”</strong> — That’s the Gobi. Air and food fix it — try with lamb.</li>
+        <li><strong>“Never heard of Xinjiang.”</strong> — North of the Tian Shan. Silk Road, then open the bottle.</li>
+      </ul>
+      <a class="btn" href="talkers.html">Open printable talker cards →</a>
+    </section>
+
+    <section>
+      <h2>Who we sell to first in Australia</h2>
+      <div class="grid3" style="margin-top:20px">
+        <div class="card">
+          <div class="cap">01</div>
+          <h3 style="margin-top:10px;color:var(--bone)">Independent bottle shops</h3>
+          <p>Story-led shelves. Owner tastes with you. Put all three SKUs on one card.</p>
+        </div>
+        <div class="card">
+          <div class="cap">02</div>
+          <h3 style="margin-top:10px;color:var(--bone)">Asian fine dining</h3>
+          <p>Marselan by the glass; CMS for steak / duck courses.</p>
+        </div>
+        <div class="card">
+          <div class="cap">03</div>
+          <h3 style="margin-top:10px;color:var(--bone)">Specialty importer</h3>
+          <p>Not Dan Murphy day one. One partner who owns the Silk Road narrative.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      Impression Gobi · Changji · Xinjiang · Educational trade mock-ups for Adelaide 2026 · Confirm medals &amp; certs before retail print<br/>
+      Site: <a href="https://impression-gobi.vercel.app">impression-gobi.vercel.app</a>
+    </footer>
+  </div>
+</body>
+</html>

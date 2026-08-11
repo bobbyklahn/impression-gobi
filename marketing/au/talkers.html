@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Impression Gobi — AU Shelf Talkers</title>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap");
+  :root{
+    --ink:#14171f; --bone:#efe6cf; --gold:#c9a35a; --brown:#4a2c1a;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:#1a1410; color:var(--bone);
+    font-family:Inter,system-ui,sans-serif;
+    padding:40px 24px 80px;
+  }
+  h1{font-family:"Cormorant Garamond",serif;font-weight:400;font-size:42px;margin-bottom:8px}
+  .sub{color:#a89880;font-size:14px;margin-bottom:36px;max-width:60ch;line-height:1.6}
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:28px;
+    max-width:1100px;
+  }
+  .card{
+    background:linear-gradient(165deg,#f7f0e4 0%,#efe6cf 100%);
+    color:var(--ink);
+    border-radius:4px;
+    padding:28px 24px 32px;
+    min-height:420px;
+    display:flex;flex-direction:column;
+    box-shadow:0 20px 50px rgba(0,0,0,.35);
+    position:relative;
+    overflow:hidden;
+  }
+  .card::before{
+    content:"";position:absolute;top:0;left:0;right:0;height:4px;
+    background:var(--gold);
+  }
+  .logo{height:56px;width:auto;object-fit:contain;margin-bottom:18px;align-self:flex-start}
+  .sku{font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:#8a6a32;font-weight:600;margin-bottom:10px}
+  .name{font-family:"Cormorant Garamond",serif;font-size:28px;line-height:1.15;color:var(--brown);margin-bottom:6px}
+  .origin{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#6a5a48;margin-bottom:18px}
+  .line{font-family:"Cormorant Garamond",serif;font-size:20px;font-style:italic;line-height:1.35;margin-bottom:16px;color:#2a2018}
+  .body{font-size:13px;line-height:1.55;color:#3a3228;flex:1}
+  .pair{margin-top:18px;padding-top:14px;border-top:1px solid rgba(74,44,26,.2);font-size:12px;color:#5a4a38}
+  .pair strong{display:block;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#8a6a32;margin-bottom:6px}
+  .foot{margin-top:14px;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:#9a8a70}
+  @media print{
+    body{background:#fff;padding:12px}
+    .card{box-shadow:none;border:1px solid #ddd;break-inside:avoid}
+    .sub{color:#666}
+  }
+</style>
+</head>
+<body>
+  <h1>Shelf talkers · Australia</h1>
+  <p class="sub">Print-ready cards for independent retail and tasting tables. 90×140-ish ratio on screen — scale to shelf strip as needed.</p>
+
+  <div class="grid">
+    <article class="card">
+      <img class="logo" src="logo-au-horizontal.jpg" alt="Impression Gobi" />
+      <div class="sku">01 · House red</div>
+      <h2 class="name">Cabernet · Merlot · Syrah</h2>
+      <div class="origin">Tian Shan Beilu · Changji</div>
+      <p class="line">Herb. Pepper. Real tannin.</p>
+      <p class="body">The house pour. Desert light, cold nights, structure that doesn’t vanish after one sip. For drinkers who already like Barossa heat.</p>
+      <div class="pair">
+        <strong>Pair with</strong>
+        Rib-eye · lamb chops · aged cheddar
+      </div>
+      <div class="foot">Impression Gobi · Estate</div>
+    </article>
+
+    <article class="card">
+      <img class="logo" src="logo-au-horizontal.jpg" alt="Impression Gobi" />
+      <div class="sku">02 · Signature grape</div>
+      <h2 class="name">Marselan Blend</h2>
+      <div class="origin">Xinjiang · Organic blocks</div>
+      <p class="line">Blackberry · plum · plush middle.</p>
+      <p class="body">China’s grape Australians should learn next. Softer entry than the house CMS — ideal by-the-glass and first discovery pour.</p>
+      <div class="pair">
+        <strong>Pair with</strong>
+        Char siu · five-spice duck · hard cheese
+      </div>
+      <div class="foot">Ask for the Marselan</div>
+    </article>
+
+    <article class="card">
+      <img class="logo" src="logo-au-horizontal.jpg" alt="Impression Gobi" />
+      <div class="sku">03 · Organic path</div>
+      <h2 class="name">Organic Cuvées</h2>
+      <div class="origin">Certified plantings · Cabernet &amp; Merlot</div>
+      <p class="line">Smoke · black cherry · clean finish.</p>
+      <p class="body">Low rain, low disease pressure — organic because the climate allows it. For buyers who ask about farming before medals.</p>
+      <div class="pair">
+        <strong>Pair with</strong>
+        Roast chicken · mushroom pie · soft goat cheese
+      </div>
+      <div class="foot">Farming first</div>
+    </article>
+  </div>
+</body>
+</html>
