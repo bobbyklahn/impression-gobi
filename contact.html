@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Visit — Impression Gobi</title>
+<meta name="description" content="Contact Impression Gobi Winery, Changji, Xinjiang. Trade, tastings, estate visits." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css" />
+</head>
+<body>
+
+<nav class="nav">
+  <a class="brand" href="index.html"><span class="dot"></span>IMPRESSION · GOBI</a>
+  <div class="links">
+    <a href="index.html">Home</a>
+    <a href="story.html">Story</a>
+    <a href="wines.html">Wines</a>
+    <a href="terroir.html">Terroir</a>
+    <a href="contact.html">Visit</a>
+  </div>
+  <a href="contact.html" class="lang">EN · 中</a>
+  <button class="menu-btn">Menu</button>
+</nav>
+
+<section class="hero small" style="padding:0">
+  <div class="hero-poster" style="background-image:url('images/source/press-05.jpg')"></div>
+  <div class="vignette"></div>
+  <div class="hero-content">
+    <span class="kicker">By arrangement</span>
+    <h1 class="serif">Get in Touch</h1>
+    <p class="sub">Trade samples, importer talks, or a quiet pour at the estate. Write first.</p>
+  </div>
+  <div class="hero-hud">
+    <div>CHANGJI · XINJIANG</div>
+    <div class="scroll-cue">SCROLL</div>
+    <div>TRADE · VISIT</div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="visit reveal">
+      <div class="info">
+        <div class="kicker">The house</div>
+        <h2 class="serif" style="margin:18px 0">Impression Gobi Winery</h2>
+        <p>昌吉市印象戈壁葡萄酒庄有限责任公司</p>
+        <dl>
+          <dt>Where</dt>
+          <dd>Sangong Town<br/>Changji City, Xinjiang<br/>China · Tian Shan Beilu</dd>
+          <dt>General Manager</dt>
+          <dd>Fu Qiang 富强</dd>
+          <dt>Winemaker</dt>
+          <dd>Li Zhendong 李振东</dd>
+          <dt>Australia visit</dt>
+          <dd>Market exploration 2026 — contact via group coordinator for tasting appointments while in Adelaide / Sydney.</dd>
+        </dl>
+      </div>
+      <div class="map has-image">
+        <div class="map-img" style="background-image:url('images/source/press-06.jpg')"></div>
+        <div style="position:absolute;top:18px;left:18px;z-index:2;font-size:9px;letter-spacing:.3em;color:var(--gold);text-transform:uppercase">N · 43.85° &nbsp; E · ~87.3°</div>
+        <div style="position:absolute;bottom:18px;right:18px;z-index:2;font-size:9px;letter-spacing:.3em;color:var(--mist);text-transform:uppercase">Changji · Tian Shan Beilu</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--ink-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap-narrow">
+    <div class="kicker reveal">Write to us</div>
+    <h2 class="serif reveal" style="margin:18px 0 10px">Tell us what you need.</h2>
+    <p class="reveal" style="margin-bottom:50px">Importer, restaurant, private group, or press. We answer in English or Chinese. There is no automated booking — a person will read this.</p>
+
+    <form class="form reveal" onsubmit="event.preventDefault();this.querySelector('button').textContent='Received — we will reply';">
+      <div class="field"><label>First name</label><input type="text" required /></div>
+      <div class="field"><label>Last name</label><input type="text" required /></div>
+      <div class="field"><label>Email</label><input type="email" required /></div>
+      <div class="field"><label>Company (optional)</label><input type="text" /></div>
+      <div class="field"><label>Interest</label>
+        <select>
+          <option>Trade / import</option>
+          <option>Restaurant / on-premise</option>
+          <option>Estate visit</option>
+          <option>Press / tasting</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="field"><label>City</label><input type="text" placeholder="Adelaide, Sydney…" /></div>
+      <div class="field full"><label>Message</label><textarea placeholder="What you are looking for, volumes if trade, dates if visiting…"></textarea></div>
+      <div class="field full"><button type="submit" class="btn">Send <span class="arrow">→</span></button></div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="grid">
+      <div class="brand-block">
+        <div class="mark">Impression Gobi</div>
+        <p>Form is a front-end demo until email is wired. For the Australia trip, use the group coordinator channel.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul><li><a href="contact.html">Contact</a></li></ul>
+      </div>
+      <div>
+        <h4>Cellar</h4>
+        <ul><li><a href="wines.html">Wines</a></li></ul>
+      </div>
+      <div>
+        <h4>House</h4>
+        <ul>
+          <li><a href="story.html">Story</a></li>
+          <li><a href="terroir.html">Terroir</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <div>© MMXXVI Impression Gobi · Changji, Xinjiang</div>
+      <div>Drink slowly · 18+</div>
+    </div>
+  </div>
+</footer>
+
+<div class="loader">
+  <div class="mark">IMPRESSION GOBI</div>
+  <div class="bar"><i></i></div>
+  <div class="txt">LOADING</div>
+</div>
+<script src="assets/site.js"></script>
+<script>
+  window.addEventListener("load", () => {
+    const bar = document.querySelector(".loader .bar i");
+    if (bar) { bar.style.transition = "transform .9s ease"; bar.style.transform = "scaleX(1)"; }
+  });
+</script>
+</body>
+</html>
